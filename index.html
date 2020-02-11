@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-    <title>Witcher | Official page</title>
+    <title>Witcher | Fan page</title>
 </head>
 <body>
     <div class="container">
@@ -51,10 +52,77 @@
                     <span class="rate">7/10</span>
                 </div>
             </div>
-            <h1 class="main-title">Ведьмак</h1>
-            <p class="main-description">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных принцесс.</p>
-            <button class="main-watch"></button>
+
+            <div class="main-block">
+                <div class="main-leftside">
+                    <h1 class="main-title">Ведьмак</h1>
+                    <p class="main-description">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных принцесс.</p>
+                    <button class="main-watch">Смотреть трейлер</button>
+                </div>
+                <div class="main-rightside">
+                    <button class="play">
+                        <img src="img/button/Vector.svg" class="play-img" alt="Button play">
+                    </button>
+                </div>
+            </div>
+
+            
+
+            <div class="series">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="card-series series-1">
+                                <span class="card-subtitle">Серия 1</span>
+                                <h2 class="card-title">Начало конца</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-series series-2">
+                                <span class="card-subtitle">Серия 2</span>
+                                <h2 class="card-title">Четыре знака</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-series series-3">
+                                <span class="card-subtitle">Серия 3</span>
+                                <h2 class="card-title">Выйдет на следующей неделе...</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination
+                    <div class="swiper-pagination"></div> -->
+                    <!-- If we need navigation buttons -->  
+                    <!--<div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>-->
+                </div>
+                <button class="btn-nav"></button>
+            </div>
+
         </main>
     </div>  
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="left">
+                    <span class="copyright">© 2020 The Witcher. All right reserved.</span>
+                </div>
+                <div class="right">
+                    <div class="footer-menu">
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <a href="#" class="footer-link">Terms of Service</a>
+                        <a href="#" class="footer-link">Legal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

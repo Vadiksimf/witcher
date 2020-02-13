@@ -13,28 +13,31 @@
 </head>
 <body>
     <div class="container">
-        <nav>
-            <div class="logo">
-                <img class="logo-img" src="img/logo.png" alt="Логотип">
-                <ul class="nav-links">
-                    <a href="#">
-                        <li>Описание</li>
-                    </a>
-                    <a href="#">
-                        <li>Трейлер</li>
-                    </a>
-                    <a href="#">
-                        <li>Отзывы</li>
-                    </a>
-                </ul>
-            </div>
-            <div>
-                <a href="#" class="social"><img src="img/social/facebook.svg" alt="Facebook"></a>
-                <a href="#" class="social"><img src="img/social/instagram.svg" alt="Instagram"></a>
-                <a href="#" class="social"><img src="img/social/twitter.svg" alt="Twitter"></a>
-            </div>
-        </nav>
-
+        <header>
+            <nav>
+                <div class="logo">
+                    <img class="logo-img" src="img/logo.png" alt="Логотип">
+                    <ul class="nav-links">
+                        <a href="#">
+                            <li>Описание</li>
+                        </a>
+                        <a href="#">
+                            <li>Трейлер</li>
+                        </a>
+                        <a href="#">
+                            <li>Отзывы</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="menu-social">
+                    <a href="#" class="social"><img src="img/social/facebook.svg" alt="Facebook"></a>
+                    <a href="#" class="social"><img src="img/social/instagram.svg" alt="Instagram"></a>
+                    <a href="#" class="social"><img src="img/social/twitter.svg" alt="Twitter"></a>
+                </div>
+            </nav>
+        </header>
+            <div class="burger"></div>
+        
         <main>
             <div class="container">
                 <span class="ganre">2019, фэнтези</span>
@@ -57,7 +60,7 @@
                 <div class="main-leftside">
                     <h1 class="main-title">Ведьмак</h1>
                     <p class="main-description">Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных принцесс.</p>
-                    <button class="main-watch">Смотреть трейлер</button>
+                    <button class="main-watch"><a href="https://www.youtube.com/watch?v=mlO1YaqXLqw">Смотреть трейлер</a></button>
                 </div>
                 <div class="main-rightside">
                     <button class="play">
@@ -65,8 +68,6 @@
                     </button>
                 </div>
             </div>
-
-            
 
             <div class="series">
                 <!-- Slider main container -->
@@ -92,13 +93,7 @@
                                 <h2 class="card-title">Выйдет на следующей неделе...</h2>
                             </div>
                         </div>
-                    </div>
-
-                    <!-- If we need pagination
-                    <div class="swiper-pagination"></div> -->
-                    <!-- If we need navigation buttons -->  
-                    <!--<div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>-->
+                    </div>                 
                 </div>
                 <button class="btn-nav"></button>
             </div>

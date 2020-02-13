@@ -60,6 +60,8 @@ nav {
 
 .nav-links li {
     margin-right: 24px;
+    border:none;
+    outline: none;
 }
 
 .logo-img {
@@ -385,6 +387,7 @@ footer {
 
     .burger-active {
         height: 0;
+        z-index: 300;
     }
 
     .burger-active:before {
@@ -409,6 +412,7 @@ footer {
 
     .nav-active {
         display: flex;
+        z-index: 200
     }
 
     .nav-links {
